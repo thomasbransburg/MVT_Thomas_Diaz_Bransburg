@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> index </title>
+</head>
+<body>  
+    <center> </h1> <u style = "color:red"> Listado de Familiares </u></h1></center>
+
+    <h2> <mark>A continuacion se encuentra la lista de familiares por Nombre, Edad y Fecha de nacimiento: </mark></h2>
+
+        <center>******************</center>
+     {% for familiar in familiares %}
+
+        <center> <p  style = "color:green"> ---- {{familiar}} ----</p></center>
+        
+     {% endfor %}
+     <center>******************</center>
+
+     <h3 style = "color:purple">Lista se imprimio con exito</h3>
+
+     <h4> <u> Imagen de la familia: </u> </h4>
+
+
+
+    <img style="max-width: 500px;" src="https://img.freepik.com/foto-gratis/feliz-familia-silueta-puesta-sol_1303-22466.jpg?w=2000&t=st=1659389899~exp=1659390499~hmac=14d3179b92e58dbbd90090ae0aa8a6187b587becdc96fd9bfe469984c21241a3" alt="familia" >
+
+</body>
+</html>
